@@ -1,0 +1,262 @@
+<html><head>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Slab:300,400" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+    </script>
+    <script src="assets/js/script.js"></script>
+</head>
+
+
+
+<body>
+<div id="modal-overlay" style="display: none;"></div>
+<!-- Left Panel -->
+	<div id="left" class="panel">
+		<div class="container">
+			<div id="maintext">
+				<div>WHAT DOES </div>
+					<div>YOUR SIGN REALLY SAY ABOUT YOU?</div>
+			</div>
+			<div class="menu">
+				<div id="button">ME</div>
+				<div id="credits-button">CREDITS</div>
+			</div>
+		</div>
+	</div>
+<!-- Right Panel -->
+	<div id="right" class="panel">
+		<div class="container">
+<!-- Grid  -->
+			<div class="griditem" id="pisces" style="display: inline-block;"></div>
+			<div class="griditem" id="aquarius" style="display: inline-block;"></div>
+			<div class="griditem" id="aries" style="display: inline-block;"></div>
+			<div class="griditem" id="cancer" style="display: inline-block;"></div>
+			<div class="griditem" id="capricorn" style="display: inline-block;"></div>
+			<div class="griditem" id="leo" style="display: inline-block;"></div>
+			<div class="griditem" id="libra" style="display: inline-block;"></div>
+			<div class="griditem" id="sagittarius" style="display: inline-block;"></div>
+			<div class="griditem" id="gemini" style="display: inline-block;"></div>
+			<div class="griditem" id="scorpio" style="display: inline-block;"></div>
+			<div class="griditem" id="taurus" style="display: inline-block;"></div>
+			<div class="griditem" id="virgo" style="display: inline-block;"></div>
+<!-- Item Description Page -->
+			<div class="back" style="display: none;">&lt; </div>
+			<div class="description" id="pisces-description" style="display: none;">
+				<div class="text-description">
+					<div class="item-name" id="pisces-name">
+						pisces
+					</div>
+					<div class="item-copy" id="pisces-copy">
+						<div>Born: February 20 - March 20</div>
+						<div>Symbol: Fish</div>
+						<div>Ruling Planet: Neptune</div>
+						<div>Element: Water</div>
+						<div>Pisces, can you get your head out of the clouds for one minute?
+							You have a serious problem dealing with reality,
+							as you're constantly confused and lost in your imagination.
+							Not to mention you're moody as hell.</div>
+					</div>
+				</div>
+			</div>
+			<div class="description" id="aquarius-description" style="display: none;">
+				<div class="text-description">
+					<div class="item-name" id="aquarius-name">
+						aquarius
+					</div>
+					<div class="item-copy" id="aquarius-copy">
+						<div>Born: January 21 - February 19</div>
+						<div>Symbol: Water bearer</div>
+						<div>Ruling Planet: Uranus (Saturn was considered the ruler of this sign before Uranus was discovered.)</div>
+						<div>Element: Air</div>
+						<div>Did you invent the silent treatment?
+							Because you're really good at it.
+							I guess being cold, detached, and strange can come in handy when you're feeling aloof.</div>
+					</div>
+				</div>
+			</div>
+			<div class="description" id="aries-description" style="display: none;">
+				<div class="text-description">
+					<div class="item-name" id="aries-name">
+						aries
+					</div>
+					<div class="item-copy" id="aries-copy">
+						<div>Born: March 21 - April 20</div>
+						<div>Symbol: Ram</div>
+						<div>Ruling Planet: Mars</div>
+						<div>Element: Fire</div>
+						<div>Aries are pushy, bossy, domineering, and arrogant.
+							All the qualities that make you a good leader also times make you combative and impatient.
+							Aries love to argue and can be amazingly resistant to following order.</div>
+				</div>
+			</div>
+		</div>
+			<div class="description" id="cancer-description" style="display: none;">
+				<div class="text-description">
+					<div class="item-name" id="cancer-name">
+						cancer
+					</div>
+					<div class="item-copy" id="cancer-copy">
+						<div>Born: June 22 - July 23</div>
+						<div>Symbol: Crab</div>
+						<div>Ruling Planet: Moon</div>
+						<div>Element: Water</div>
+						<div>You're so super-sensitive that people feel as if they're walking through a mine field,
+							never knowing when they might say something to set you off.
+							Moody doesn't even begin to describe the series of emotions you go through on a daily basis. </div>
+					</div>
+				</div>
+			</div>
+			<div class="description" id="capricorn-description" style="display: none;">
+				<div class="text-description">
+					<div class="item-name" id="capricorn-name">
+						capricorn
+					</div>
+					<div class="item-copy" id="capricorn-copy">
+						<div>Born: December 22 - January 20</div>
+						<div>Symbol: Goat</div>
+						<div>Ruling Planet: Saturn</div>
+						<div>Element: Earth</div>
+						<div>All you do is worry, even when you don't have anything to worry about.
+							You're rigid, a workaholic, and you have no problem using people to get what you want.	</div>
+					</div>
+				</div>
+			</div>
+			<div class="description" id="leo-description" style="display: none;">
+				<div class="text-description">
+					<div class="item-name" id="leo-name">
+						leo
+					</div>
+					<div class="item-copy" id="leo-copy">
+						<div>Born: July 24 - August 23</div>
+						<div>Symbol: Lion</div>
+						<div>Ruling Planet: Sun</div>
+						<div>Element: Fire</div>
+						<div>It has to be all about you, all  the time.
+							Leos are vain, self-centered, and thrive on attention.
+							You live for praise and only ask questions in a conversation to
+							try and get back to your favorite subject... you.</div>
+				</div>
+			</div>
+		</div>
+			<div class="description" id="libra-description" style="display: none;">
+				<div class="text-description">
+					<div class="item-name" id="libra-name">
+						libra
+					</div>
+					<div class="item-copy" id="libra-copy">
+						<div>Born: September 24 - October 23</div>
+						<div>Symbol: Weighing scales</div>
+						<div>Ruling Planet: Venus</div>
+						<div>Element: Air</div>
+						<div>You couldn't make a decision quickly to save your own life,
+							and have risen fence-sitting to an art form.
+							You're also fake, superficial, and need the approval of others like most people need air.</div>
+					</div>
+				</div>
+			</div>
+			<div class="description" id="sagittarius-description" style="display: none;">
+				<div class="text-description">
+					<div class="item-name" id="sagittarius-name">
+						sagittarius
+					</div>
+					<div class="item-copy" id="sagittarius-copy">
+						<div>Born: November 23 - December 21</div>
+						<div>Symbol: Archer</div>
+						<div>Ruling Planet: Jupiter</div>
+						<div>Element: Fire</div>
+						<div>The term know-it-all was probably coined to describe you.
+							You're blunt and opinionated, yet somehow still detached,
+							which makes the brutal things you say sting even more.</div>
+					</div>
+				</div>
+			</div>
+			<div class="description" id="gemini-description" style="display: none;">
+				<div class="text-description">
+					<div class="item-name" id="gemini-name">
+						gemini
+					</div>
+					<div class="item-copy" id="gemini-copy">
+						<div>Born: May 22 - June 21</div>
+						<div>Symbol: Twins</div>
+						<div>Ruling Planet: Mercury</div>
+						<div>Element: Air</div>
+						<div>You're two-faced, scattered, nervous, and lose interest quickly.
+							You're not one to stick it out and have a tendency to be immature.</div>
+				</div>
+			</div>
+		</div>
+			<div class="description" id="scorpio-description" style="display: none;">
+				<div class="text-description">
+					<div class="item-name" id="scorpio-name">
+						scorpio
+					</div>
+					<div class="item-copy" id="scorpio-copy">
+						<div>Born: October 24 - November 22</div>
+						<div>Symbol: Scorpion</div>
+						<div>Ruling Planet: Pluto</div>
+						<div>Element: Water</div>
+						<div>You're demanding, controlling, and vindictive.
+							You resist change, and hang on to any wrongdoing (real or imagined)
+							that you think has been done to you.
+							Forgiveness isn't an option for you. </div>
+					</div>
+				</div>
+			</div>
+			<div class="description" id="taurus-description" style="display: none;">
+				<div class="text-description">
+					<div class="item-name" id="taurus-name">
+						taurus
+					</div>
+					<div class="item-copy" id="taurus-copy">
+						<div>Born: April 21 - May 21</div>
+						<div>Symbol: Bull</div>
+						<div>Ruling Planet: Venus</div>
+						<div>Element: Earth</div>
+						<div>You're stunningly lazy, stubborn, and messy.
+							You crave money, and have a huge appetite for everything...
+							you just don't want to have to work for it.
+							You don't care if there's a line of cars behind you;
+							you're going to go as slowly as you want,
+							laughing at those idiots who can't go around you.</div>
+				</div>
+			</div>
+		</div>
+			<div class="description" id="virgo-description" style="display: none;">
+				<div class="text-description">
+					<div class="item-name" id="virgo-name">
+						virgo
+					</div>
+					<div class="item-copy" id="virgo-copy">
+						<div>Born: August 24 - September 23</div>
+						<div>Symbol: Virgin</div>
+						<div>Ruling Planet: Mercury</div>
+						<div>Element: Earth</div>
+						<div>You're a tight-ass, hypercritical perfectionist.
+							The have an incredible ability
+							to remember and bring up something unpleasant from the past.
+							You look down on people for their more animal instincts, but don't forget you've got them, too.
+							You're just afraid of indulging.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- About -->
+
+	<div id="about-modal" style="display: none;">
+		<div id="about">
+			My name is Noel and I made this page. I'm also a pisces.  Hope you find the real you!
+		</div>
+	</div>
+
+	<!-- Credits -->
+		<div id="modal-overlay" style="display: none;"></div>
+		<div id="credits-modal" style="display: none;">
+			<div id="credits">
+				Thanks to Tatiana for the icons from Astrological Signs from the Noun Project.
+				Thanks to http://www.buzzle.com/ for the date, symbol, element, and ruling planet information.
+				Thanks to Christine Schoenwald from yourtango.com for description inspiration.
+			</div>
+		</div>
+
+
+</body></html>

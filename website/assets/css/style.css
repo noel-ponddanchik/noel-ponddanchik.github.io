@@ -1,0 +1,505 @@
+body {
+	font-family: 'Amatic SC', cursive;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+.panel {
+	background-color: #D1C4E9;
+	width: 350px;
+}
+
+/*About*/
+
+#about-modal {
+	z-index: 10000;
+	position: absolute;
+	width: 25%;
+	height: 40%;
+	background-color: white;
+	border-radius: 4px 4px 4px 4px;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-o-transform: translateX(-50%) translateY(-50%);
+	transition: 0.7s;
+	padding: 5% 5% 5% 5%;
+	text-align: center;
+	overflow: scroll;
+	font-size: 22px;
+	color: black;
+}
+
+#credits-modal {
+	z-index: 10000;
+	position: absolute;
+	width: 25%;
+	height: 40%;
+	background-color: white;
+	border-radius: 4px 4px 4px 4px;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-o-transform: translateX(-50%) translateY(-50%);
+	transition: 0.7s;
+	padding: 5% 5% 5% 5%;
+	text-align: left;
+	overflow: scroll;
+	font-weight: lighter;
+	font-size: 24px;
+}
+
+#modal-overlay {
+	width: 100%;
+	height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 9000;
+
+}
+
+#x {
+	max-width: 20px;
+	max-height: 20px;
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	cursor: pointer;
+
+}
+
+#x:hover {
+	opacity: 0.5;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	cursor: pointer;
+}
+
+
+
+#about {
+	font-size: 28px;
+	color: black;
+	margin-top: 5%;
+}
+
+
+/*Left Panel*/
+
+
+#maintext {
+	position: relative;
+	height: 70%;
+	width: 100%;
+	padding-bottom: 20%;
+	padding-top: 70%;
+	padding-right: 100px;
+	padding-left: 40px;
+	margin-left: 20px;
+	margin-bottom: 90px;
+	margin-right: 50px;
+	margin: 0 auto;
+	color: #3F51B5;
+	font-size: 60px;
+	text-align: left;
+	float: left;
+	letter-spacing: 3px;
+	font-weight: lighter;
+}
+
+.menu {
+	position: absolute;
+	text-align: center;
+	padding-top: 170px;
+	padding-left: -20px;
+
+}
+
+
+
+#button:hover {
+	color: white;
+	background-color: #D1C4E9;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
+}
+
+#button {
+	display: inline-block;
+	position: fixed;
+	font-weight: 600;
+	font-size: 28px;
+	width: 30px;
+	letter-spacing: 3px;
+	color: #3F51B5;
+	padding: 1% 11% 1% 9%;
+	background-color: white;
+	text-align: right;
+	cursor: pointer;
+	margin-bottom: 10px;
+	margin-top: -70px;
+	margin-left: 15px;
+	margin-right: 10%;
+	font-weight: lighter;
+}
+
+#credits-button {
+	display: inline-block;
+	position: fixed;
+	font-weight: 600;
+	font-size: 28px;
+	width: 30px;
+	letter-spacing: 3px;
+	color: #3F51B5;
+	padding: 1% 12% 1% 8%;
+	background-color: white;
+	text-align: left;
+	margin: 0 auto;
+	cursor: pointer;
+	margin-top: -150px;
+	margin-left: 15px;
+	font-weight: lighter;
+	margin-bottom: -10px;
+}
+
+#credits-button:hover {
+	color: white;
+	background-color: #D1C4E9;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
+}
+
+#left .container {
+	position: absolute;
+	width: 320px;
+	transition: 0.7s;
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+	height: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#left {
+	float: left;
+	height: 100%;
+	width: 350px;
+	transition: 0.7s;
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+	position: fixed;
+}
+
+/*Right Panel Grid View*/
+
+#right .container {
+	position: absolute;
+	float: right;
+	width: 500px;
+	height: 100%;
+	background-color: white;
+	transition: 0.7s;
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+
+
+}
+
+#right {
+	float: right;
+	background-color: white;
+	height: 100%;
+	width:650px;
+	transition: 0.7s;
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+
+}
+
+
+.griditem {
+	display: inline-block;
+	position: relative;
+	transform: translate(50%, 25%);
+	-webkit-transform: translate(50%, 25%);
+	-moz-transform: translate(50%, 25%);
+	-ms-transform: translate(50%, 25%);
+	-o-transform: translate(50%, 25%);
+	width: 30%;
+	height: 20%;
+	margin: 0;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: 0.7s;
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+	cursor: pointer;
+
+}
+
+.griditem-opacity {
+	opacity: 0.5;
+}
+
+
+#pisces {
+	background-image: url(../img/pisces.png);
+}
+
+#aquarius {
+	background-image: url(../img/aquarius.png);
+}
+
+#aries {
+	background-image: url(../img/aries.png);
+}
+
+#cancer {
+	background-image: url(../img/cancer.png);
+}
+
+#capricorn {
+	background-image: url(../img/capricorn.png);
+}
+
+#leo {
+	background-image: url(../img/leo.png);
+}
+
+#libra {
+	background-image: url(../img/libra.png);
+}
+
+#sagittarius {
+	background-image: url(../img/sagittarius.png);
+}
+
+#gemini {
+	background-image: url(../img/gemini.png);
+}
+
+#scorpio {
+	background-image: url(../img/scorpio.png);
+}
+
+#taurus {
+	background-image: url(../img/taurus.png);
+}
+
+#virgo {
+	background-image: url(../img/virgo.png);
+}
+/*Item Description Page*/
+.back {
+	position: relative;
+	font-weight: 600;
+	font-size: 50px;
+	color: #3F51B5;
+	cursor: pointer;
+	margin: 10px 20px 20px 20px;
+}
+
+.back:hover {
+	color: #261fb2;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
+	cursor: pointer;
+
+}
+
+#right .container-active {
+	width: 50%;
+	height:100%;
+	transform: translateX(-20%);
+	-webkit-transform: translateX(-20%);
+	-moz-transform: translateX(-20%);
+	-ms-transform: translateX(-20%);
+	-o-transform: translateX(-20%);
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	background-color: white;
+	margin: 0px;
+	padding-bottom: 600px;
+
+}
+
+#left .container-active {
+	transform: translateX(-90%);
+	-webkit-transform: translateX(-90%);
+	-moz-transform: translateX(-90%);
+	-ms-transform: translateX(-90%);
+	-o-transform: translateX(-90%);
+	transition: 0.7s;
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+
+}
+
+.active-item {
+	transform: scale(2.75) translate(10%, 30%);
+	-webkit-transform: scale(2.75) translate(10%, 30%);
+	-moz-transform: scale(2.75) translate(10%, 30%);
+	-ms-transform: scale(2.75) translate(10%, 30%);
+	-o-transform: scale(2.75) translate(10%, 30%);
+	transition: 0.7s;
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-o-transition: 0.7s;
+
+}
+
+
+.description {
+	transform: translate(-30%, 25%);
+	-webkit-transform: translate(-30%, 25%);
+	-moz-transform: translate(-30%, 25%);
+	-ms-transform: translate(-30%, 25%);
+	-o-transform: translate(-30%, 25%);
+	width: 40%;
+	display: inline-block;
+	float: right;
+	z-index: 100000;
+	margin-top: -100px;
+}
+
+#leo-description {
+	transform: translate(-35%, 50%);
+	-webkit-transform: translate(-35%, 50%);
+	-moz-transform: translate(-35%, 50%);
+	-ms-transform: translate(-35%, 50%);
+	-o-transform: translate(-35%, 50%);
+}
+
+#cancer-description {
+	transform: translate(-30%, 50%);
+	-webkit-transform: translate(-30%, 50%);
+	-moz-transform: translate(-30%, 50%);
+	-ms-transform: translate(-30%, 50%);
+	-o-transform: translate(-30%, 50%);
+}
+
+#capricorn-description {
+	transform: translate(-20%, 40%);
+	-webkit-transform: translate(-20%, 40%);
+	-moz-transform: translate(-20%, 40%);
+	-ms-transform: translate(-20%, 40%);
+	-o-transform: translate(-20%, 40%);
+}
+
+#sagittarius-description {
+	transform: translate(-20%, 40%);
+	-webkit-transform: translate(-20%, 40%);
+	-moz-transform: translate(-20%, 40%);
+	-ms-transform: translate(-20%, 40%);
+	-o-transform: translate(-20%, 40%);
+}
+
+#aquarius-description {
+	transform: translate(-35%, 50%);
+	-webkit-transform: translate(-35%, 50%);
+	-moz-transform: translate(-35%, 50%);
+	-ms-transform: translate(-35%, 50%);
+	-o-transform: translate(-35%, 50%);
+}
+
+#aries-description {
+	transform: translate(-30%, 20%);
+	-webkit-transform: translate(-30%, 20%);
+	-moz-transform: translate(-30%, 20%);
+	-ms-transform: translate(-30%, 20%);
+	-o-transform: translate(-30%, 20%);
+
+}
+
+#capricorn-description {
+	transform: translate(-35%, 30%);
+	-webkit-transform: translate(-35%, 30%);
+	-moz-transform: translate(-35%, 30%);
+	-ms-transform: translate(-35%, 30%);
+	-o-transform: translate(-35%, 30%);
+}
+
+#cancer-description {
+	transform: translate(-40%, 35%);
+	-webkit-transform: translate(-40%, 35%);
+	-moz-transform: translate(-40%, 35%);
+	-ms-transform: translate(-40%, 35%);
+	-o-transform: translate(-40%, 35%);
+}
+
+
+.text-description {
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.item-name {
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 60px;
+	color: #3F51B5;
+	margin-bottom: 5%;
+}
+
+.item-copy {
+	width: 100%;
+	font-size: 24px;
+	color: ##5C6BC0;
+}
+
+@media screen and (max-width: 1440px) {
+.active-item {
+	transform: scale(2) translate(10%, 30%);
+}
+
+#capricorn-description {
+	transform: translate(-30%, 60%);
+	-webkit-transform: translate(-30%, 60%);
+	-moz-transform: translate(-30%, 60%);
+	-ms-transform: translate(-30%, 60%);
+	-o-transform: translate(-30%, 60%);
+}
+
+@media screen and (max-width: 1024px) {
+.active-item {
+	transform: scale(1.5) translate(10%, 30%);
+}
+
+.description {
+	transform: translate(-35%, 20%);
+	-webkit-transform: translate(-35%, 20%);
+	-moz-transform: translate(-35%, 20%);
+	-ms-transform: translate(-35%, 20%);
+	-o-transform: translate(-35%, 20%);
+	width: 90%;
+	display: inline-block;
+	float: right;
+	z-index: 100000;
+}
